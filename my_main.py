@@ -21,7 +21,7 @@ parser.add_argument(
     "--batch_size", type=int, default=16, help="batch_size for training"
 )
 parser.add_argument("--lr", type=float, default=0.005, help="star learning rate")
-parser.add_argument("--data_path", type=str, default="your path")
+parser.add_argument("--data_path", type=str, default="your file-path")
 parser.add_argument("--device", default="cpu", help="device id (i.e. 0 or 0,1 or cpu)")
 opt = parser.parse_args()
 
