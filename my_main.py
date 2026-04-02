@@ -134,7 +134,7 @@ def main(args):
         torch.save(model.state_dict(), os.path.join(save_path, "AlexNet.pth"))
 
     d = infer_test(model, device)
-    print(f"测试正确率是{d}")
+    print(f"测试的正确率是{d}")
 
 
 if __name__ == "__main__":
